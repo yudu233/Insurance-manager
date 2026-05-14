@@ -1,6 +1,6 @@
 {
-  "miniprogramRoot": "./",
-  "cloudfunctionRoot": "../cloudfunctions/",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
   "projectname": "insurance-manager",
   "description": "保险/隐私协议管理小程序",
   "appid": "touristappid",
