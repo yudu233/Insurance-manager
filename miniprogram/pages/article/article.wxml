@@ -1,0 +1,17 @@
+<view class="article">
+  <block wx:if="{{loading}}">
+    <view class="loading">加载中...</view>
+  </block>
+  <block wx:else>
+    <view class="title">{{article.title}}</view>
+    <view class="meta">更新时间：{{article.updatedAtText}}</view>
+    <rich-text class="content" nodes="{{article.content}}"></rich-text>
+
+    <button
+      wx:if="{{!hasPhone}}"
+      class="btn-primary phone-btn"
+      open-type="getPhoneNumber"
+      bindgetphonenumber="onGetPhoneNumber"
+    >绑定手机号（可选）</button>
+  </block>
+</view>

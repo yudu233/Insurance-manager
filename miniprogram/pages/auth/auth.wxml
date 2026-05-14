@@ -1,0 +1,13 @@
+<view class="auth-page">
+  <view class="logo-placeholder">保险服务</view>
+  <view class="title">欢迎使用保险服务</view>
+  <view class="desc">为了更好的服务体验，需要您授权基本资料</view>
+
+  <button
+    class="btn btn-primary"
+    open-type="getUserInfo"
+    bindtap="onGetUserProfile"
+  >微信授权登录</button>
+
+  <view class="tips">仅获取昵称和头像，用于身份识别</view>
+</view>

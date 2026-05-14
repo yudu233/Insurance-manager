@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+**/node_modules/
+
+# 构建产物
+dist/
+build/
+.output/
+
+# 环境/缓存
+.env
+.env.local
+.DS_Store
+*.log
+.vite/
+.cache/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 微信开发者工具
+miniprogram_npm/
+project.private.config.json
